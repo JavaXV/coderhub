@@ -4,6 +4,7 @@
 
 .form{
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -14,6 +15,8 @@
   font-size: 10px;
   background-color: rgb(17, 31, 31);
   position: absolute;
+  align-items: center;
+  justify-content: center;
   left: 0px;
   top: 0px;
 }
@@ -23,6 +26,8 @@
   height: 550px;
   padding-left: 0px;
   padding-right: 0px;
+  align-items: center;
+  justify-content: center;
 
 }
 .footer{
@@ -31,11 +36,15 @@
   height: 100%;
   position: absolute;
   left: 0px;
+  align-items: center;
+  justify-content: center;
 }
 .lap{
   position:absolute;
   right: 100px;
   top: 200px;
+  align-items: center;
+  justify-content: center;
 }
 .lap a, h3{
   color: rgb(236, 236, 222);
@@ -44,6 +53,8 @@
   position:absolute;
   right: 300px;
   top: 200px;
+  align-items: center;
+  justify-content: center;
 }
 .product a{
   color: beige;
@@ -52,6 +63,8 @@
   position:absolute;
   right: 600px;
   top: 200px;
+  align-items: center;
+  justify-content: center;
 }
 .support a{
   color: beige;
@@ -60,6 +73,8 @@
   position:absolute;
   right: 900px;
   top: 200px;
+  align-items: center;
+  justify-content: center;
 }
 .company a{
   color: beige;
@@ -68,6 +83,8 @@
   position:absolute;
   right: 1300px;
   top: 200px;
+  align-items: center;
+  justify-content: center;
 }
 .lapclose a{
   color: beige;
@@ -77,6 +94,8 @@
   position: absolute;
   background-color:rgb(170, 152, 152);
   height: 70px;
+  align-items: center;
+  justify-content: center;
   top: 700px;
   left: 0px;
 }
